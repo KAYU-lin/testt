@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>履歷表</title>
+        <style>
+            #a2{border: 2px rgb(217, 221, 193) solid;width:49%;display: inline-block; height=200px}
+            #a3{border: 2px rgb(221, 198, 193) solid;width:32%;display: inline-block}
+        </style>
+    </head>
+    <body>
+        <article>
+        <header >
+            <h1 style="background-color: #666;padding: 30px;text-align: center;font-size: 35px;color: white;">履歷表</h1>
+            <p style="text-align: center;">這是一份模擬履歷表的網頁</p>
+            <fieldset>
+                <legend>基本資料</legend>
+                <label>名字:<input type="text" name="fullname"/></label>
+                <label>年齡:<input type="text" name="age"/></label>
+                <label>電話:<input type="text" name="telephome"/></label>
+                <p>姓別:
+                    <input id="male"type="radio"name="sex"value="m">
+                    <label for="male">男</label>
+                    <input id="female"type="radio"name="sex"value="f">
+                    <label for="male">女</label>
+                </p>
+            </fieldset>
+        </header>
+        </article>
+        <nav style="float: left;
+        width: 60%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;">
+            <div>
+                   <span id=a3 style=";background:rgb(221, 198, 163) ;color: rgb(77, 51, 26);">Deadline</span>
+                   <span id=a3 style="background:rgb(221, 198, 163) ;color: rgb(77, 51, 26);">作業編號</span>
+                   <span id=a3 style="background:rgb(221, 198, 163) ;color: rgb(77, 51, 26);">作業連結</span>
+                   <span id=a3>3/23</span>
+                   <span id=a3>HW01</span>
+                   <span id=a3><li><a href="https://ecourse.ncyu.edu.tw/mod/assign/view.php?id=35470">連結</a></li></span>
+                   <span id=a3>3/31</span>
+                   <span id=a3>HW02</span>
+                   <span id=a3><li><a href="https://zgyhizvykcs625cxqz1hqw-on.drv.tw/testweb/Untitled-1.html">連結</a></li></span>
+                   <span id=a3>4/14</span>
+                   <span id=a3>HW03</span>
+                   <span id=a3><li><a href="https://zgyhizvykcs625cxqz1hqw-on.drv.tw/testweb/000.html">連結</a></li></span>
+                   <span id=a3>4/28</span>
+                   <span id=a3>HW04</span>
+                   <span id=a3><li><a href="https://zgyhizvykcs625cxqz1hqw-on.drv.tw/testweb/OOO.html">連結</a></li></span>
+                   <span id=a3>5/9</span>
+                   <span id=a3>HW05</span>
+                   <span id=a3><li><a href="https://zgyhizvykcs625cxqz1hqw-on.drv.tw/testweb/OOO.html">連結</a></li></span>
+               </div>
+        </nav>
+        <nav ul style="list-style-type: none;
+        padding: 0;" ></nav>
+            
+        <main>
+            <article style="float: left;padding: 20px;width: 30%;background-color: #f1f1f1;height: 300px; /* only for demonstration, should be removed */">
+                <h1>經歷</h1>
+                <p>限大學期間
+                    <fieldset>
+                        <legend>請填寫</legend>
+                        <label>學歷:<input type="text" name="fullname"/></label>
+                        <label>幹部:<input type="text" name="age"/></label>
+                        <label>社團:<input type="text" name="telephome"/></label>
+                    </fieldset>
+                </p>
+            </article>
+            <aside style="background-color: #777;padding: 10px;text-align: center;color: white;">
+                <p>注意事項</p>
+            </aside>
+        </main>
+       
+        <footer style="background-color: rgb(197, 197, 197);
+        padding: 10px;
+        text-align: center;
+        color: white;">填寫正確</footer>
+    </body>
+</html>
